@@ -1,0 +1,13 @@
+.screen { overflow: hidden;			/*可改代码*/ height: 280px; width: 380px; background: #444; padding: 40px; }
+.slider-box { display: flex; }
+.slider-box div { height: 200px; width: 300px; }
+
+/*可改代码*/
+.slider_a { background: red; }
+.slider_b { background: green; }
+.slider_c { background: #956245; }
+
+
+.scale { -webkit-transform: scale(0.9); -moz-transform: scale(0.9); -ms-transform: scale(0.9); -o-transform: scale(0.9); transform: scale(0.9); -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s; transition: all 0.4s; opacity: 0.7; }
+.active { -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s; transition: all 0.4s;	/*这段代码来自 腾讯，因为动画在切换的过程中会有闪烁*/ -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; backface-visibility: hidden; -webkit-perspective: 1000; -moz-perspective: 1000; -ms-perspective: 1000; perspective: 1000; }
+.transition { -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -o-transition: all 0.4s; transition: all 0.4s; }
